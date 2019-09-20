@@ -37,3 +37,45 @@ main {
 header h1 {
   text-align: center;
 }
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.characterCard {
+  width: 25%;
+  height: 33vh;
+  border: 1px solid gray;
+  padding: 3%;
+  margin: 1% 0;
+}
+
+.cardImage {
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink {
+  margin: 1% 1%;
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  text-decoration: underline;
+  color: blue;
+}
+
+body {
+  background-color: gray;
+}
