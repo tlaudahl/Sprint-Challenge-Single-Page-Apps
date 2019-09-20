@@ -4,7 +4,7 @@ export default function CharacterCard(props) {
   return (
     <div className='characterCard'>
       <div className='imageContainer'>
-        <img alt={`${props.name} Image`} className='cardImage' src={props.image} />
+        <img alt={`${props.name}`} className='cardImage' src={props.image} />
       </div>
       <h2>Name: {props.name}</h2>
       <p># of Episodes: {props.episode}</p>
